@@ -18,5 +18,11 @@
   "main": "index.js",
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@jasonhk/typescript-config": "^1.0.1",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  }
 }
