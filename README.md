@@ -1,0 +1,1 @@
+# jest-each-object
