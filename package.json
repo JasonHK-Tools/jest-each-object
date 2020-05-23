@@ -1,0 +1,22 @@
+{
+  "name": "@jasonhk/jest-each-object",
+  "version": "0.0.1",
+  "description": "Use objects as each row of the table for the `describe.each` and `test.each` methods of Jest.",
+  "keywords": [
+    "jest"
+  ],
+  "homepage": "https://github.com/JasonHK-Tools/jest-each-object#readme",
+  "bugs": {
+    "url": "https://github.com/JasonHK-Tools/jest-each-object/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK-Tools/jest-each-object.git"
+  },
+  "license": "MIT",
+  "author": "Jason Kwok <github@jasonhk.email> (https://jasonhk.net/)",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
