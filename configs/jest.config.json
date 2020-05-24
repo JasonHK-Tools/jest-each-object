@@ -1,0 +1,27 @@
+{
+    "rootDir": "../",
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage",
+    "coverageReporters": [
+        "html",
+        "lcov"
+    ],
+    "collectCoverageFrom": [
+        "src/**/*.ts"
+    ],
+    "modulePaths": [
+        "<rootDir>"
+    ],
+    "transform": {
+        "^.+\\.ts$": "ts-jest"
+    },
+    "setupFilesAfterEnv": [
+        "jest-extended"
+    ],
+    "globals": {
+        "ts-jest": {
+            "tsConfig": "./configs/tsconfig.test.json"
+        }
+    }
+}

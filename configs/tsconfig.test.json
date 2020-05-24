@@ -3,10 +3,14 @@
     "compilerOptions": {
         "target": "ES2018",
         "module": "CommonJS",
-        "rootDir": "../src",
-        "types": []
+        "baseUrl": "../",
+        "rootDir": "../tests",
+        "types": [
+            "jest",
+            "jest-extended"
+        ]
     },
     "include": [
-        "../src/**/*"
+        "../tests/**/*"
     ]
 }

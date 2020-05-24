@@ -16,7 +16,9 @@
   "license": "MIT",
   "author": "Jason Kwok <github@jasonhk.email> (https://jasonhk.net/)",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx jest --config=./configs/jest.config.json"
+  },
   "dependencies": {},
   "devDependencies": {
     "@jasonhk/typescript-config": "^1.0.1",
