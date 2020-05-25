@@ -4,7 +4,7 @@ describe("isValidColumnName(name)", () =>
 {
     describe("Returns `true` when the name was valid", () =>
     {
-        test.each([
+        test.each<ITestCase>([
             // Empty
             [""],
             // Properties' name
@@ -19,7 +19,7 @@ describe("isValidColumnName(name)", () =>
 
     describe("Returns `false` when the name was invalid", () =>
     {
-        test.each([
+        test.each<ITestCase>([
             // Contains the pipe character
             ["|"],
             // Contains whitespace characters
@@ -33,4 +33,6 @@ describe("isValidColumnName(name)", () =>
             expect(isValidColumnName(name)).toBeFalse();
         });
     });
+
+    type ITestCase = [string];
 });
